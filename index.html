@@ -10,7 +10,7 @@
       <button id="friendBtn">Нажми, если ты лучший друг</button>
 .     <p id="message"></p>
       <style>p{text-align:center}</style>
-.     <script>const btn=document.getElementById('friendBtn');const msg=document.getElementById('message');const phrases=["Удачи в катке! 🎮","Пора на тренировку! 💪","Литература подождет, го в дискорд? 📚"];btn.addEventListener('click', () => {const random = phrases[Math.floor(Math.random() * phrases.length)];msg.innertext = random;msg.style.color = "#ffd700";//Золотистый цвет});</script>
+.     <script>const btn=document.getElementById('friendBtn');const msg=document.getElementById('message');const phrases=["Удачи в катке! 🎮","Пора на тренировку! 💪","Литература подождет, го в дискорд? 📚"];btn.addEventListener('click', () => {const random = phrases[Math.floor(Math.random() * phrases.length)];msg.innerText = random;msg.style.color = "#ffd700";//Золотистый цвет});</script>
       <script>function toggletext(element){if(element.innerHTML === "Мои друзья?") {element.innerHTML = "Мои друзья — это те редкие люди, с которыми можно быть собой на все сто процентов, не подбирая слов и не выстраивая никаких барьеров. Иметь рядом тех, кто разделяет твои увлечения, будь то жаркие споры о тактике в любимых играх, обсуждение сложных поворотов в классической литературе или просто совместные тренировки, — это огромная удача.";element.style.color = "red";} else {element.innerHTML = "Мои друзья?";element.style.color = "black";}}</script>
     </body>
 </html>
